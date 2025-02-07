@@ -4,7 +4,7 @@ import pickle
 
 rectW,rectH=107,48
 
-cap=cv2.VideoCapture('C:/Users/Python Scripts/Car/carPark.mp4')
+cap=cv2.VideoCapture('C:/Users/Python Scripts/Car/Estacionamiento/carPark.mp4')
 
 with open('C:/Users/Python Scripts/Car/carParkPos','rb') as f:
     posList=pickle.load(f)
